@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace JoeyDinger.SamScaife {
     public class DialogueInstanceManager : MonoBehaviour
@@ -34,8 +35,9 @@ namespace JoeyDinger.SamScaife {
 
         //populate the dialogue instance with data
         public void Render(DialogueNode data) {
+            if (data != null) {
             //set the speaker
-            speaker.text = data.title;
+            speaker.text = data.speaker;
             //set the body text
             body.text = data.body;
 
@@ -53,13 +55,19 @@ namespace JoeyDinger.SamScaife {
                 newButton.transform.GetChild(0).GetComponent<TMP_Text>().text = action.text;
                 //set up event listener
                 Button buttonComponent = newButton.GetComponent<Button>();
-                buttonComponent.onClick.AddListener(delegate { HandleButtonClicked(action.targetNode); });
+                buttonComponent.onClick.AddListener(delegate { HandleButtonClicked(action); });
             }
+            }
+
         }
 
-        public void HandleButtonClicked(string target) {
+        public void HandleButtonClicked(DialogueAction action) {
+            // Check if we need to end the scene
+            if (action.targetNode == "endScene") {
+                SceneManager.LoadScene(dialogueManager.GetComponent<DialogueManager>().nextScene);
+            }
             //trigger a dialoge change
-            dialogueManager.ChangeDialogue(target);
+            dialogueManager.ChangeDialogue(action.targetNode);
         }
 
 

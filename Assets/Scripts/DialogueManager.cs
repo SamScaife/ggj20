@@ -13,6 +13,9 @@ namespace JoeyDinger.SamScaife {
         //the list of dialogue to work through
         public List<DialogueNode> Dialogue;
 
+        // Where to go when the endScene action is triggered
+        public string nextScene;
+
         //class to handle json importing
         private JsonImporter jsonImporter;
 

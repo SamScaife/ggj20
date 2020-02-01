@@ -53,33 +53,45 @@ namespace JoeyDinger.SamScaife
 				//found a speaker
 
 				//set the speaker name
-				speaker = speakerMatch.Groups[1].ToString();
+				// speaker = speakerMatch.Groups[1].ToString();
 
 				//set the speaker ID
 				switch (speakerMatch.Value) {
 					case "{None}":
 						speakerID = Speaker.None;
+						speaker = "";
 						break;
 					case "{Player}":
 						speakerID = Speaker.Player;
+						speaker = "Player";
 						break;
 					case "{JoeyDinger}":
 						speakerID = Speaker.JoeyDinger;
+						speaker = "Joey Dinger";
 						break;
 					case "{Audience}":
 						speakerID = Speaker.None;
+						speaker = "Audience";
 						break;
 					case "{DwightBishop}":
 						speakerID = Speaker.DwightBishop;
+						speaker = "Dwight Bishop";
 						break;
 					case "{ILanaBishop}":
-						speakerID = Speaker.ILanaBishop;
+						speakerID = Speaker.IlanaBishop;
+						speaker = "Ilana Bishop";
 						break;
 					case "{CoreyMcCormack}":
 						speakerID = Speaker.CoreyMcCormack;
+						speaker = "Corey McCormack";
 						break;
 					case "{CareyMcMormack}":
 						speakerID = Speaker.CareyMcMormack;
+						speaker = "Carey McCormack";
+						break;
+					case "{StudioExec}":
+						speakerID = Speaker.StudioExec;
+						speaker = "Studio Exec";
 						break;
 				}
 
@@ -114,7 +126,7 @@ namespace JoeyDinger.SamScaife
 					//updated the dialogue action properties
 					newDialogueAction.text = parameters[0];
 					newDialogueAction.targetNode = parameters[1];
-
+		
 					//add the action to actions array
 					actions.Add(newDialogueAction);
 
@@ -162,4 +174,4 @@ namespace JoeyDinger.SamScaife
 }
 
 //enum for speakers
-public enum Speaker {None, Player, JoeyDinger, Audience, DwightBishop, ILanaBishop, CoreyMcCormack, CareyMcMormack}
+public enum Speaker {None, StudioExec, Player, JoeyDinger, Audience, DwightBishop, IlanaBishop, CoreyMcCormack, CareyMcMormack}

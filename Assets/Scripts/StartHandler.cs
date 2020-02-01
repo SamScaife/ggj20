@@ -16,7 +16,6 @@ public class StartHandler : MonoBehaviour
 
     public void ShowInstructions()
     {
-        gameObject.SetActive(false);
         instructionsCanvas.SetActive(true);
         Canvas canvas = gameObject.transform.parent.GetComponent<Canvas>();
         canvas.gameObject.SetActive(false);
