@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Some test\n[[Go to two|gotwo]]\n[[Go to wthree|gothree]]",
+		"position": {
+			"x": 66,
+			"y": 101
+		},
+		"colorID": 0
+	},
+	{
+		"title": "gotwo",
+		"tags": "",
+		"body": "some more text\n\n<<SpecialOption DialogueController 3>>",
+		"position": {
+			"x": 420,
+			"y": 267
+		},
+		"colorID": 0
+	},
+	{
+		"title": "gothree",
+		"tags": "",
+		"body": "node number 3",
+		"position": {
+			"x": 114,
+			"y": 353
+		},
+		"colorID": 0
+	}
+]
