@@ -165,6 +165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6353518888176317703}
   - component: {fileID: 8537461143856088064}
+  - component: {fileID: 4069015345980383605}
   m_Layer: 5
   m_Name: DialogueInstance
   m_TagString: Untagged
@@ -219,6 +220,19 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+--- !u!114 &4069015345980383605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750688404558183847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f067f5fb0ef87d948bb9cd5bb97d78ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 0}
 --- !u!1 &2726859682966437992
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +245,7 @@ GameObject:
   - component: {fileID: 866188196412465083}
   m_Layer: 5
   m_Name: Buttons
-  m_TagString: Untagged
+  m_TagString: Buttons
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
