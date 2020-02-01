@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nHey Joey! My name is Corey. I’m fourteen years old and I need your help.\n[[...|next1]]",
+		"position": {
+			"x": -16,
+			"y": -1
+		},
+		"colorID": 0
+	},
+	{
+		"title": "next1",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nLast year my family took a trip to Coney Island. \nThat’s my mum, my step-dad, me and my twin brother Carey.\nIt was awesome! But the problem is, ever since we got back, Carey has been acting weird.\n[[...|next2]]",
+		"position": {
+			"x": -26,
+			"y": 225
+		},
+		"colorID": 0
+	},
+	{
+		"title": "next2",
+		"tags": "",
+		"body": "{CoreyMcCormack}\r\nHe doesn’t wanna play baseball anymore, he just wants to sit in an armchair and read the sports pages.\r\nHe yells at the TV and keeps a stash of beers under his bed!\r\n\r\n[[...|next3]]",
+		"position": {
+			"x": 216,
+			"y": 0
+		},
+		"colorID": 0
+	},
+	{
+		"title": "next3",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nI’m here today to find out once and for all: what happened to you Carey?\n\n[[Continue|endScene]]",
+		"position": {
+			"x": 214,
+			"y": 225
+		},
+		"colorID": 0
+	}
+]
