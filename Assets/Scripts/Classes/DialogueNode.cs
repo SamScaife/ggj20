@@ -91,7 +91,7 @@ namespace JoeyDinger.SamScaife
 						break;
 					case "{StudioExec}":
 						speakerID = Speaker.StudioExec;
-						speaker = "Studio Executive";
+						speaker = "Studio Exec";
 						break;
 				}
 

@@ -1,0 +1,62 @@
+[
+	{
+		"title": "questions",
+		"tags": "",
+		"body": "{JoeyDinger}\r\n[[What was the first thing you did when you came home from your trip and realised that your bees were gone?|ilana1]]\r\n[[Did you talk to Ilana before giving away her bees?|dwight1]]\r\n[[Is there a way of baby-proofing against bees?|ilana2]]\r\n[[Did something in particular lead you to believe that your wife’s bees might be dangerous for your child?|dwight2]]\r\n",
+		"position": {
+			"x": 474,
+			"y": 196
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ilana1",
+		"tags": "",
+		"body": "{IlanaBishop}\nMy first thought was, he deadass stole my bees. I was under the impression that I was just thinking it. But I realised slowly that \nI was screaming it. I was hooting and hollering, screaming that he stole my bees.\n\n[[...|ilana1a]]",
+		"position": {
+			"x": 173,
+			"y": 325
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ilana2",
+		"tags": "",
+		"body": "{IlanaBishop}\nI was not expecting to have my baby in the vicinity of my bees until it gets older. In the meantime, there are bee-keeping suits\nfor babies: look it up. Tiny baby bee-keeping suits, they are absolutely adorable.\nI would completely murder someone for one.\n\n[[Continue|questions]]",
+		"position": {
+			"x": 773,
+			"y": 352
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dwight1",
+		"tags": "",
+		"body": "{DwightBishop}\nI did not - like I said it was meant to be a surprise! Who wouldn’t appreciate a loving husband taking care of baby-proofing the\nwhole house?\nI thought I was being helpful. I only ever had the safety of my wife and child in mind.\n\n[[Continue|questions]]",
+		"position": {
+			"x": 177,
+			"y": 22
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dwight2",
+		"tags": "",
+		"body": "{DwightBishop}\nWell, Joey, they’re bees - they have stingers don’t they? I can see a curious baby, slithering its way outside, curious about the \nlow-level buzzing sounds we all hear constantly, at all times. I can see it climbing its way inside a hive and being paid for \nits trouble in thousands of stingers! Those things are objectively dangerous, there’s no two ways about it.\n\n\n[[Continue|questions]]",
+		"position": {
+			"x": 752,
+			"y": 15
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ilana1a",
+		"tags": "",
+		"body": "{IlanaBishop}\nThen, I stopped screaming and asked him where he had sent them. He told me, he gave them away to a friend. So I got in my car and drove over to this friend’s house to try and get them back. The police got involved. It was messy.\n\n[[Continue|questions]]",
+		"position": {
+			"x": 178,
+			"y": 592
+		},
+		"colorID": 0
+	}
+]
