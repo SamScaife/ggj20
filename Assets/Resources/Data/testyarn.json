@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "Some test\n[[Go to two|gotwo]]\n[[Go to wthree|gothree]]",
+		"body": "{JoeyDinger}\nSome test\n[[Go to two|gotwo]]\n[[Go to wthree|gothree]]",
 		"position": {
 			"x": 66,
 			"y": 101
@@ -12,7 +12,7 @@
 	{
 		"title": "gotwo",
 		"tags": "",
-		"body": "some more text\n\n<<SpecialOption DialogueController 3>>",
+		"body": "{Player}\nsome more text\n\n<<SpecialOption DialogueController 3>>",
 		"position": {
 			"x": 420,
 			"y": 267
@@ -22,7 +22,7 @@
 	{
 		"title": "gothree",
 		"tags": "",
-		"body": "node number 3",
+		"body": "{None}node number 3",
 		"position": {
 			"x": 114,
 			"y": 353
