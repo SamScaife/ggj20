@@ -27,6 +27,9 @@ namespace JoeyDinger.SamScaife
         //Camera Array
         private Camera[] CameraArray;
 
+        // Map names to cameras
+        private string[] cameraNameMap;
+
         //Camera Buttons
         [Header("Camera Button Objects")]
         [SerializeField]
@@ -52,6 +55,11 @@ namespace JoeyDinger.SamScaife
                 CameraFiveActive,
             };
 
+            // Record camera names, with the same indexes as in the active cameras array above
+            cameraNameMap = new string[] {
+                "Camera One", "Camera Two", "Camera Three", "Camera Four", "Camera Five"
+            };
+
             //Set up Camera Button events
             CameraOneButton.onClick.AddListener(delegate { HandleCameraButtonClicked(0); });
             CameraTwoButton.onClick.AddListener(delegate { HandleCameraButtonClicked(1); });
@@ -67,13 +75,15 @@ namespace JoeyDinger.SamScaife
             }
             //set the chosen camera to the front
             CameraArray[cameraIndex].depth = 1;
-
-            // UpdateCurrentCamera(GetComponent<Camera>().name);
+            UpdateCurrentCamera(cameraNameMap[cameraIndex]);
         }
 
+        /**
+        * Update the current camera display at the top of the screen
+        **/
         private void UpdateCurrentCamera(string cameraName)
         {
-            currentCamera.text = cameraName;
+            currentCamera.text = "Live Feed:" + cameraName;
         }
     }
 }
