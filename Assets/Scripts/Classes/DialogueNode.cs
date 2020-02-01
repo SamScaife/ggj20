@@ -13,13 +13,15 @@ namespace JoeyDinger.SamScaife
 		public string title;
 		public string body;
 		public string speaker;
+		public string tags;
 		public Speaker speakerID;
 		public List<DialogueAction> actions;
 
-		public DialogueNode(string _title, string _body)
+		public DialogueNode(string _title, string _body, string _tags)
 		{
 			title = _title;
 			body = _body;
+			tags = _tags;
 		}
 
 		//pull out data from the body and clean it up
@@ -34,7 +36,7 @@ namespace JoeyDinger.SamScaife
 
 			//set up functions
 			SetupFunctions();
-
+			
 			//clean off white space from the body
 			body.Trim();
 

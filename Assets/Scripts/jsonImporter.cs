@@ -29,7 +29,7 @@ namespace JoeyDinger.SamScaife
             //loop through the json and set up Dialog Nodes
             foreach (JSONNode node in parsedJSON) {
                 //create a new dialog
-                DialogueNode dialogue = new DialogueNode(node["title"],node["body"]);
+                DialogueNode dialogue = new DialogueNode(node["title"], node["body"], node["tags"]);
                 //process the node
                 dialogue.Setup();
                 //add node to the list

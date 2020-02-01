@@ -12,6 +12,8 @@ namespace JoeyDinger.SamScaife {
         //link up to ingame instances that will change
         private TMP_Text speaker;
         private TMP_Text body;
+        private GameObject verticalButtonsContainer;
+        private GameObject horizontalButtonsContainer;
         private GameObject buttonsContainer;
         //the button prefab
         private GameObject buttonPrefab;
@@ -24,11 +26,12 @@ namespace JoeyDinger.SamScaife {
             TMP_Text[] childTMPComponents = gameObject.GetComponentsInChildren<TMP_Text>();
             //speaker is the first child
             speaker = childTMPComponents[0];
-            Debug.Log(speaker);
             //body is the second child
             body = childTMPComponents[1];
-            //button container is the third child
-            buttonsContainer = transform.GetChild(2).gameObject;
+            //vertical button container is the third child
+            verticalButtonsContainer = transform.GetChild(2).gameObject;
+            // Horizontal button container comes next
+            horizontalButtonsContainer = transform.GetChild(3).gameObject;
 
             //find the putton prefab and load it ready for use
             buttonPrefab = Resources.Load("Prefabs/Button") as GameObject;
@@ -42,16 +45,33 @@ namespace JoeyDinger.SamScaife {
                 //set the body text
                 body.text = data.body;
 
-                //clear any existing buttons
-                foreach (Transform child in buttonsContainer.transform)
+                //clear any existing buttons from vertical container
+                foreach (Transform vChild in verticalButtonsContainer.transform)
                 {
-                    GameObject.Destroy(child.gameObject);
+                    GameObject.Destroy(vChild.gameObject);
+                }
+                //clear any existing buttons from horizontal container
+                foreach (Transform hChild in horizontalButtonsContainer.transform)
+                {
+                    GameObject.Destroy(hChild.gameObject);
                 }
 
                 //add the buttons
                 foreach (DialogueAction action in data.actions) {
+                    if (data.tags == "vertical") 
+                    {
+                        buttonsContainer = verticalButtonsContainer;
+                        horizontalButtonsContainer.SetActive(false);
+                        verticalButtonsContainer.SetActive(true);
+                    }
+                    else
+                    {
+                        buttonsContainer = horizontalButtonsContainer;
+                        horizontalButtonsContainer.SetActive(true);
+                        verticalButtonsContainer.SetActive(false);
+                    }
                     //create a new button
-                    GameObject newButton = Instantiate(buttonPrefab,buttonsContainer.transform,false);
+                    GameObject newButton = Instantiate(buttonPrefab, buttonsContainer.transform,false);
                     //change the buttons text
                     newButton.transform.GetChild(0).GetComponent<TMP_Text>().text = action.text;
                     //set up event listener

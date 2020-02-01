@@ -1,0 +1,32 @@
+[
+	{
+		"title": "carey1",
+		"tags": "",
+		"body": "{CareyMcCormack}\nI love baseball. But that level of physical activity can really do a number on my sciatica, so sometimes I prefer to just take a load off with an ice-cold beer and watch the game in my chair. But of course, I love doing other fun stuff that kids do! I love Fortnite! SnackChat! Slime!\n\n[[Continue|careyquestions]]",
+		"position": {
+			"x": 156,
+			"y": 460
+		},
+		"colorID": 1
+	},
+	{
+		"title": "carey2",
+		"tags": "",
+		"body": "{CareyMcCormack}\nOf course not! I don’t know what all the fuss is about. I’m obviously a fourteen year-old boy. Can’t you tell by looking at me? Maybe it’s Corey that’s changed. Or maybe, I’m just growing up a little faster than he is.\n\n\n[[Continue|careyquestions]]",
+		"position": {
+			"x": 731,
+			"y": 447
+		},
+		"colorID": 1
+	},
+	{
+		"title": "careyquestions",
+		"tags": "",
+		"body": "[[Carey, your brother says you don’t play baseball with him anymore. Why is that?|carey1]]\r\n[[Carey, is your brother right to be concerned?|carey2]]\r\n",
+		"position": {
+			"x": 450,
+			"y": 455
+		},
+		"colorID": 1
+	}
+]

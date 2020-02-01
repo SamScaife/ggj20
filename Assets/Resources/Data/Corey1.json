@@ -1,0 +1,32 @@
+[
+	{
+		"title": "coreyquestions",
+		"tags": "vertical",
+		"body": "{JoeyDinger}\r\n[[So, Corey. When did you first realise something was different about your brother?|corey1]]\r\n[[Corey, do you have any ideas about what might have happened to your brother on Coney Island?|corey2]]\r\n",
+		"position": {
+			"x": 565,
+			"y": -111
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey1",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nThat’s easy, Joey. It was the first week back after the trip. I sent Carey a Snapchat and he didn’t even open it. When I asked him\nif he’d seen it, he said, “What’s a Snapchat?” and then started talking about how he can’t keep up with all these new words and \nthe rent is too high.\n\n[[Continue|coreyquestions]]",
+		"position": {
+			"x": 292,
+			"y": -108
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey2",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nI think maybe he could have hit his head. I didn’t see him do it, but there was this time when he disappeared for like an hour, so he could have done it then. Maybe he ate some bad sandwich and got a parasite. I heard they can really mess with your brain.\n\n[[Continue|coreyquestions]]",
+		"position": {
+			"x": 842,
+			"y": -111
+		},
+		"colorID": 0
+	}
+]
