@@ -1,0 +1,52 @@
+[
+	{
+		"title": "questions",
+		"tags": "",
+		"body": "{JoeyDinger}\r\n[[So, Corey. When did you first realise something was different about your brother?|corey1]]\r\n[[Carey, your brother says you don’t play baseball with him anymore. Why is that?|carey1]]\r\n[[Corey, do you have any ideas about what might have happened to your brother on Coney Island?|corey2]]\r\n[[Carey, is your brother right to be concerned?|carey2]]\r\n",
+		"position": {
+			"x": 477,
+			"y": 197
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey1",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nThat’s easy, Joey. It was the first week back after the trip. I sent Carey a Snapchat and he didn’t even open it. When I asked him if he’d seen it, he said, “What’s a Snapchat?” and then started talking about how he can’t keep up with all these new words and the rent is too high.\n\n[[Continue|questions]]",
+		"position": {
+			"x": 180,
+			"y": 359
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey2",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nI think maybe he could have hit his head. I didn’t see him do it, but there was this time when he disappeared for like an hour, so he could have done it then. Maybe he ate some bad sandwich and got a parasite. I heard they can really mess with your brain.\n\n[[Continue|questions]]",
+		"position": {
+			"x": 774,
+			"y": 352
+		},
+		"colorID": 0
+	},
+	{
+		"title": "carey1",
+		"tags": "",
+		"body": "{CareyMcCormack}\nI love baseball. But that level of physical activity can really do a number on my sciatica, so sometimes I prefer to just take a load off with an ice-cold beer and watch the game in my chair. But of course, I love doing other fun stuff that kids do! I love Fortnite! SnackChat! Slime!\n\n[[Continue|questions]]",
+		"position": {
+			"x": 177,
+			"y": 22
+		},
+		"colorID": 0
+	},
+	{
+		"title": "carey2",
+		"tags": "",
+		"body": "{CareyMcCormack}\nOf course not! I don’t know what all the fuss is about. I’m obviously a fourteen year-old boy. Can’t you tell by looking at me? Maybe it’s Corey that’s changed. Or maybe, I’m just growing up a little faster than he is.\n\n\n[[Continue|questions]]",
+		"position": {
+			"x": 747,
+			"y": 12
+		},
+		"colorID": 0
+	}
+]
