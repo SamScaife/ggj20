@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace JoeyDinger.SamScaife
 {
     public class CameraManager : MonoBehaviour
     {
+        // Indicator of current camera
+        public TMP_Text currentCamera;
+
         //Camera GameObjects
         [Header("Camera Objects")]
         [SerializeField]
@@ -63,8 +67,13 @@ namespace JoeyDinger.SamScaife
             }
             //set the chosen camera to the front
             CameraArray[cameraIndex].depth = 1;
+
+            // UpdateCurrentCamera(GetComponent<Camera>().name);
         }
 
-        
+        private void UpdateCurrentCamera(string cameraName)
+        {
+            currentCamera.text = cameraName;
+        }
     }
 }
