@@ -15,6 +15,8 @@ public class TitleHandler : MonoBehaviour
     void Start()
     {
         sceneData = sceneDataContainer.transform.GetComponent<SceneData>();
+        GameObject titleComponent = GameObject.Find("Text");
+        title = titleComponent.GetComponent<Text>().text;
     }
 
     /**
