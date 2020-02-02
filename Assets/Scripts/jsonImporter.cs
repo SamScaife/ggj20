@@ -8,20 +8,14 @@ namespace JoeyDinger.SamScaife
 
     public class JsonImporter
     {
-
-        private TextAsset _JsonDataFile;
-
-        public JsonImporter(TextAsset JsonDataFileToImport) {
-            _JsonDataFile = JsonDataFileToImport;
-        }
-
+        // Pass the file in here instead of in the constructor
         //read All from json File
-        public List<DialogueNode> ReadJSON() {
+        public List<DialogueNode> ReadJSON(TextAsset jsonDataFile) {
             //set up list for response
             List<DialogueNode> response = new List<DialogueNode>();
 
             //convert data file to string
-            string jsonString = _JsonDataFile.ToString();
+            string jsonString = jsonDataFile.ToString();
 
             //parse json
             var parsedJSON = JSON.Parse(jsonString);

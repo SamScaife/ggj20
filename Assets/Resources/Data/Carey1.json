@@ -2,10 +2,10 @@
 	{
 		"title": "carey1",
 		"tags": "",
-		"body": "{CareyMcCormack}\nI love baseball. But that level of physical activity can really do a number on my sciatica, so sometimes I prefer to just take a load off with an ice-cold beer and watch the game in my chair. But of course, I love doing other fun stuff that kids do! I love Fortnite! SnackChat! Slime!\n\n[[Continue|careyquestions]]",
+		"body": "{CareyMcCormack}\nI love baseball. But that level of physical activity can really do a number on my sciatica, so sometimes I prefer to just take a load off with an ice-cold beer and watch the game in my chair. But of course, I love doing other fun stuff that kids do! I love Fortnite! SnackChat! Slime!\n\n[[Continue|careyquestions]]\n<<AudienceReaction|surprised>>",
 		"position": {
-			"x": 156,
-			"y": 460
+			"x": 120,
+			"y": 526
 		},
 		"colorID": 1
 	},
@@ -22,11 +22,31 @@
 	{
 		"title": "careyquestions",
 		"tags": "",
-		"body": "[[Carey, your brother says you don’t play baseball with him anymore. Why is that?|carey1]]\r\n[[Carey, is your brother right to be concerned?|carey2]]\r\n",
+		"body": "{Player}\n[[Ask about baseball.|careyquestion1]]\n[[Is Corey's concern justified?|careyquestion2]]\n[[Move on|null|CoreyCareyPreResolution]]",
 		"position": {
-			"x": 450,
-			"y": 455
+			"x": 426,
+			"y": 367
 		},
-		"colorID": 1
+		"colorID": 0
+	},
+	{
+		"title": "careyquestion1",
+		"tags": "",
+		"body": "{JoeyDinger}\nCarey, your brother says you don’t play baseball with him anymore. Why is that?\n\n[[...|carey1]]\n<<AudienceReaction|mad>>",
+		"position": {
+			"x": 123,
+			"y": 230
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careyquestion2",
+		"tags": "",
+		"body": "{JoeyDinger}\nCarey, is your brother right to be concerned? Is everything alright?\n\n[[...|carey2]]",
+		"position": {
+			"x": 695,
+			"y": 236
+		},
+		"colorID": 0
 	}
 ]

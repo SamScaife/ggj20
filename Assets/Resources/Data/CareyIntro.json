@@ -1,11 +1,21 @@
 [
 	{
+		"title": "Start",
+		"tags": "",
+		"body": "{CareyMcCormack}\nHello Joey. Hello audience. I don’t know why Corey has brought me here.\n[[...|next1]]",
+		"position": {
+			"x": -373,
+			"y": 10
+		},
+		"colorID": 0
+	},
+	{
 		"title": "next3",
 		"tags": "",
-		"body": "{CareyMcCormack}\nI’m here today to clear my name and prove I’m still the same old Carey.\n[[Continue|endScene]]",
+		"body": "{CareyMcCormack}\nI’m here today to clear my name and prove I’m still the same old Carey.\n[[Continue|null|Carey1]]",
 		"position": {
-			"x": 208,
-			"y": 276
+			"x": 417,
+			"y": 26
 		},
 		"colorID": 0
 	},
@@ -14,18 +24,8 @@
 		"tags": "",
 		"body": "{CareyMcCormack}\nI like doing kid stuff, for sure. I love Fortnite! My favourite breakfast is pizza! School sucks forever!\n\n[[...|next3]]\n",
 		"position": {
-			"x": 226,
-			"y": 40
-		},
-		"colorID": 6
-	},
-	{
-		"title": "Start",
-		"tags": "",
-		"body": "{CareyMcCormack}\nHello Joey. Hello audience. I don’t know why Corey has brought me here.\n[[...|next1]]",
-		"position": {
-			"x": -18,
-			"y": 45
+			"x": 189,
+			"y": 24
 		},
 		"colorID": 0
 	},
@@ -34,8 +34,8 @@
 		"tags": "",
 		"body": "{CareyMcCormack}\nNothing happened to me on Coney Island. Coney Island was a very normal holiday. \n[[...|next2]]",
 		"position": {
-			"x": -30,
-			"y": 295
+			"x": -90,
+			"y": 15
 		},
 		"colorID": 0
 	}

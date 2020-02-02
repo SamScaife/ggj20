@@ -42,7 +42,7 @@
 	{
 		"title": "next4",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nI’m here today to find out once and for all: what happened to you Carey?\n\n[[Continue|endScene]]",
+		"body": "{CoreyMcCormack}\nI’m here today to find out once and for all: what happened to you Carey?\n\n[[Continue|null|Corey1]]",
 		"position": {
 			"x": 167,
 			"y": -231
