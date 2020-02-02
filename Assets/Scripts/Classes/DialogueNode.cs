@@ -189,4 +189,4 @@ namespace JoeyDinger.SamScaife
 }
 
 //enum for speakers
-public enum Speaker {None, StudioExec, Player, JoeyDinger, Audience, DwightBishop, IlanaBishop, CoreyMcCormack, CareyMcMormack}
+public enum Speaker {None, StudioExec, Player, JoeyDinger, Audience, DwightBishop, IlanaBishop, CoreyMcCormack, CareyMcCormack}
