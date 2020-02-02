@@ -10672,6 +10672,16 @@ PrefabInstance:
       propertyPath: dialogueInstance
       value: 
       objectReference: {fileID: 1926778076}
+    - target: {fileID: 1782726242788388118, guid: ba7dbb3e4a223a14fbcc7986eb16927f,
+        type: 3}
+      propertyPath: jsonDataFIle
+      value: 
+      objectReference: {fileID: 4900000, guid: 5a08f50ace768d94aad79c18fbdbf7c2, type: 3}
+    - target: {fileID: 1782726242788388118, guid: ba7dbb3e4a223a14fbcc7986eb16927f,
+        type: 3}
+      propertyPath: nextScene
+      value: Start
+      objectReference: {fileID: 0}
     - target: {fileID: 1782726242788388119, guid: ba7dbb3e4a223a14fbcc7986eb16927f,
         type: 3}
       propertyPath: m_Name

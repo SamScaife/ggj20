@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "{JoeyDinger}\nWell ladies and gentlemen, you’ve heard Corey’s side of the story.\n\n[[...|next]]\n<<AudienceReaction|neutral>>",
+		"position": {
+			"x": 122,
+			"y": 133
+		},
+		"colorID": 0
+	},
+	{
+		"title": "next",
+		"tags": "",
+		"body": "{JoeyDinger}\nThis good, wholesome American boy just wants to know why his twin brother stopped playing baseball with him.\n\n[[...|next2]]\n<<AudienceReaction|neutral>>",
+		"position": {
+			"x": 379,
+			"y": 132
+		},
+		"colorID": 0
+	},
+	{
+		"title": "next2",
+		"tags": "",
+		"body": "{JoeyDinger}\nI don’t know about you, but I for one can’t think of a single solid reason in heck why he might be acting this way. Teenage rebellion? Or something more sinister?\n\n[[...|next3]]\n<<AudienceReaction|mad>>",
+		"position": {
+			"x": 631,
+			"y": 142
+		},
+		"colorID": 0
+	},
+	{
+		"title": "next3",
+		"tags": "",
+		"body": "{JoeyDinger}\nJoin me in welcoming our next guest, Carey McCormack!\n\n[[Welcome Carey|null|CareyIntro]]\n<<ShowCharacter|Carey>>\n<<AudienceReaction|surprised>>",
+		"position": {
+			"x": 897,
+			"y": 131
+		},
+		"colorID": 0
+	}
+]

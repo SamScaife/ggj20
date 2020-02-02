@@ -2,7 +2,7 @@
 	{
 		"title": "coreyquestions",
 		"tags": "vertical",
-		"body": "{Player}\r\n[[Ask when he noticed the change.|corey1]]\r\n[[What does he think happened?|corey2]]\r\n[[Skip questions|null|Carey1]]",
+		"body": "{Player}\r\n[[Ask when he noticed the change.|corey1]]\r\n[[What does he think happened?|corey2]]\r\n[[Move on|null|CoreyCareyInterlude]]",
 		"position": {
 			"x": 529,
 			"y": -200
