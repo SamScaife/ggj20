@@ -91,7 +91,7 @@ namespace JoeyDinger.SamScaife
 						speaker = "Corey McCormack";
 						break;
 					case "{CareyMcCormack}":
-						speakerID = Speaker.CareyMcMormack;
+						speakerID = Speaker.CareyMcCormack;
 						speaker = "Carey McCormack";
 						break;
 					case "{StudioExec}":
