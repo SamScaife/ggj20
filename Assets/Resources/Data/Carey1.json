@@ -1,7 +1,7 @@
 [
 	{
 		"title": "careyquestions",
-		"tags": "",
+		"tags": "vertical",
 		"body": "{Player}\n[[Ask about baseball.|careyquestion1]]\n[[Is Corey's concern justified?|careyquestion2]]\n[[Move on|null|CareyCoreyResolution]]",
 		"position": {
 			"x": 426,
@@ -12,7 +12,7 @@
 	{
 		"title": "carey1",
 		"tags": "",
-		"body": "{CareyMcCormack}\nI love baseball. But that level of physical activity can really do a number on my sciatica, so sometimes I prefer to just take a load off with an ice-cold beer and watch the game in my chair. But of course, I love doing other fun stuff that kids do! I love Fortnite! SnackChat! Slime!\n\n[[Continue|careyquestions]]\n<<AudienceReaction|surprised>>",
+		"body": "{CareyMcCormack}\nI love baseball. But that level of physical activity can really do a number on my sciatica.\n\n[[...|carey1a]]\n\n[[Continue|careyquestions]]\n<<AudienceReaction|surprised>>",
 		"position": {
 			"x": 120,
 			"y": 526
@@ -46,6 +46,16 @@
 		"position": {
 			"x": 695,
 			"y": 236
+		},
+		"colorID": 0
+	},
+	{
+		"title": "carey1a",
+		"tags": "",
+		"body": "{CareyMcCormack}\nSometimes I prefer to just take a load off with an ice-cold beer and watch the game in my chair. But of course, I love doing other fun stuff that kids do! I love Fortnite! SnackChat! Slime!\n\n[[Continue|careyquestions]]",
+		"position": {
+			"x": 1263,
+			"y": 47
 		},
 		"colorID": 0
 	}

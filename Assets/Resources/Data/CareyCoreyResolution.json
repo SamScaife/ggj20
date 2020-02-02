@@ -202,7 +202,7 @@
 	{
 		"title": "careyconfresponse",
 		"tags": "",
-		"body": "{CareyMcCormack}\nJoey, that is outrageous! I'm fourteen! Pokemon!\n[...|joeyresponse2]]",
+		"body": "{CareyMcCormack}\nJoey, that is outrageous! I'm fourteen! Pokemon!\n[[...|joeyresponse2]]",
 		"position": {
 			"x": 955,
 			"y": 1146
