@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: a5283bfaf6bc00445ab599daa302db87
+  - enabled: 1
+    path: Assets/Scenes/LowerThirdTitlePickerSceneOne.unity
+    guid: a7ba23959bbbda94a9b4341960cdab2d
+  - enabled: 1
+    path: Assets/Scenes/GameUI.unity
+    guid: d47c81483280d884b850260130a86566
+  - enabled: 1
+    path: Assets/Scenes/LowerThirdTitlePickerSceneTwo.unity
+    guid: f5b5f3e4dbab8fe408e113174fac0bc6
   m_configObjects: {}

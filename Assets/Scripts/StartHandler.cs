@@ -23,6 +23,11 @@ public class StartHandler : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("LowerThirdTitlePicker");
+        SceneManager.LoadScene("LowerThirdTitlePickerSceneOne");
+    }
+
+    public void QuitGame() {
+        //Quit the game
+        Application.Quit();
     }
 }

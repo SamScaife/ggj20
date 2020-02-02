@@ -80,8 +80,13 @@ namespace JoeyDinger.SamScaife {
 
                     var charLength = action.text.Length;
 
-                    // Set button size to char length + 10 each side for padding
-                    newButton.GetComponent<RectTransform>().sizeDelta = new Vector2((charLength * 20) + 20, 40);
+                    // Set button size to char length + 20 each side for padding
+                    float targetWidth = (charLength * 20) + 40;
+                    //set min size of 160 width
+                    if (targetWidth < 160f) {
+                        targetWidth = 160f;
+                    }
+                    newButton.GetComponent<RectTransform>().sizeDelta = new Vector2(targetWidth, 60);
                 }
             }
         }
