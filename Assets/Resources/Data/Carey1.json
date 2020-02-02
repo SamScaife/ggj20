@@ -22,7 +22,7 @@
 	{
 		"title": "careyquestions",
 		"tags": "",
-		"body": "[[Carey, your brother says you don’t play baseball with him anymore. Why is that?|carey1]]\r\n[[Carey, is your brother right to be concerned?|carey2]]\r\n",
+		"body": "{Player}\r\n[[Carey, your brother says you don’t play baseball with him anymore. Why is that?|carey1]]\r\n[[Carey, is your brother right to be concerned?|carey2]]\r\n",
 		"position": {
 			"x": 450,
 			"y": 455

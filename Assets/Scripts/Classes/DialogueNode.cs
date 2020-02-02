@@ -131,6 +131,9 @@ namespace JoeyDinger.SamScaife
 					//updated the dialogue action properties
 					newDialogueAction.text = parameters[0];
 					newDialogueAction.targetNode = parameters[1];
+					if (2 < parameters.Length) {
+						newDialogueAction.jsonFile = parameters[2];
+					}
 		
 					//add the action to actions array
 					actions.Add(newDialogueAction);
@@ -144,9 +147,8 @@ namespace JoeyDinger.SamScaife
 				//@todo does this need to be handled?
 				//Debug.Log("did not find any actions in " + title);
 			}
-
-
 		}
+
 		public void SetupFunctions() {
 			//set up functions
 
@@ -177,6 +179,7 @@ namespace JoeyDinger.SamScaife
 			return targetString;
 		}
 
+		// Remove all instances of \r from a string
 		public string RemoveParagraphBreaks(string targetString)
 		{
 			string newString = targetString.Replace("\r", "");

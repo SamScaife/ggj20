@@ -9,5 +9,6 @@ namespace JoeyDinger.SamScaife
     {
         public string text;
         public string targetNode;
+        public string jsonFile = null;
     }
 }

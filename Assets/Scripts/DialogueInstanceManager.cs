@@ -33,6 +33,7 @@ namespace JoeyDinger.SamScaife {
             // Horizontal button container comes next
             horizontalButtonsContainer = transform.GetChild(3).gameObject;
 
+//
             //find the putton prefab and load it ready for use
             buttonPrefab = Resources.Load("Prefabs/Button") as GameObject;
         }
@@ -90,6 +91,10 @@ namespace JoeyDinger.SamScaife {
             // Check if we need to end the scene
             if (action.targetNode == "endScene") {
                 SceneManager.LoadScene(dialogueManager.GetComponent<DialogueManager>().nextScene);
+            }
+
+            if (action.targetNode == "null" && action.jsonFile != null) {
+                dialogueManager.ChangeJsonFile(action.jsonFile);
             }
             //trigger a dialoge change
             dialogueManager.ChangeDialogue(action.targetNode);
