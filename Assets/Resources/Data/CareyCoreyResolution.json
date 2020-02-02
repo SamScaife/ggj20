@@ -2,70 +2,70 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "{JoeyDinger}\nWell, there you have it folks. We've heard both sides of the story. What do we think?\n\n[[...|dingeropts]]",
+		"body": "{JoeyDinger}\nWell, there you have it folks. We've heard both sides of the story. What do we think?\n\n[[...|dingeropts]]\n<<CharExpression|happy>>",
 		"position": {
-			"x": 80,
-			"y": 142
+			"x": -251,
+			"y": 45
 		},
 		"colorID": 0
 	},
 	{
 		"title": "dingeropts",
 		"tags": "",
-		"body": "{Player}\n[[Get sympathy for Corey|coreysympathy]]\n[[Go in on Carey|attackcarey]]\n[[Shame them both|shame]]",
+		"body": "{Player}\n[[Get sympathy for Corey|coreysympathy]]\n[[Go in on Carey|attackcarey]]",
 		"position": {
-			"x": 429,
-			"y": 113
+			"x": 562,
+			"y": -59
 		},
 		"colorID": 0
 	},
 	{
 		"title": "coreysympathy",
 		"tags": "",
-		"body": "{JoeyDinger}\nCorey, I feel for you, I really do. You're a boy ripped in two. But you're a fighter and I believe in you.\n\n[[...|coreyquestions]]\n<<AudienceReaction|neutral>>",
+		"body": "{JoeyDinger}\nCorey, I feel for you, I really do. You're a boy ripped in two. But you're a fighter and I believe in you.\n\n[[...|coreyquestions]]\n<<AudienceReaction|neutral>>\n<<CharExpression|happy>>",
 		"position": {
-			"x": 765,
-			"y": 111
+			"x": 244,
+			"y": 124
 		},
 		"colorID": 0
 	},
 	{
 		"title": "coreyquestions",
 		"tags": "",
-		"body": "{Player}\n[[Ask how to repair trust|coreyq1]]\n[[Offer condolences|coreyq2]]",
+		"body": "{Player}\n[[Ask how to repair trust|coreyq1]]\n[[Offer personal support|coreyq2]]",
 		"position": {
-			"x": 555,
-			"y": 366
+			"x": -2,
+			"y": 278
 		},
 		"colorID": 0
 	},
 	{
 		"title": "coreyq1",
 		"tags": "",
-		"body": "{JoeyDinger}\nCorey, what can your brother do to win you back over to his side? I get the feeling he wants to make amends.\n\n[[...|coreya1]]\n<<AudienceReaction|surprised>>",
+		"body": "{JoeyDinger}\nCorey, what can your brother do to win you back over to his side? I get the feeling he wants to make amends.\n\n[[...|coreya1]]\n<<AudienceReaction|surprised>>\n<<CharExpression|neutral>>",
 		"position": {
-			"x": 307,
-			"y": 365
+			"x": -300,
+			"y": 313
 		},
 		"colorID": 0
 	},
 	{
 		"title": "coreya1",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nThat's easy, Joey! If we are gonna be friends again, he has to come play soccer with me in the park.\n\n[[...|coreya1b]]",
+		"body": "{CoreyMcCormack}\nThat's easy, Joey! If we are gonna be friends again, he has to come play soccer with me in the park.\n\n[[...|coreya1b]]\n<<CharExpression|happy>>",
 		"position": {
-			"x": 55,
-			"y": 358
+			"x": -67,
+			"y": 609
 		},
 		"colorID": 0
 	},
 	{
 		"title": "coreya1b",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nYeah, that's right, he's gotta play soccer with me. And drink sodas! If he's truly Carey, my twin brother, he'll send me my favourite Tik-tok meme, right now!\n\n[[...|tiktok]]\n<<AudienceReaction|surprised>>",
+		"body": "{CoreyMcCormack}\nYeah, that's right, he's gotta play soccer with me. And drink sodas! If he's truly Carey, my twin brother, he'll send me my favourite Tik-tok meme, right now!\n\n[[...|tiktok]]\n<<AudienceReaction|surprised>>\n<<CharExpression|happy>>",
 		"position": {
-			"x": 10,
-			"y": 691
+			"x": -82,
+			"y": 836
 		},
 		"colorID": 0
 	},
@@ -74,48 +74,48 @@
 		"tags": "",
 		"body": "{Player}\n[[Ask another question|coreyquestions]]\n[[Get Carey to send a Tik-tok meme|tiktok2]]\n<<AudienceReaction|neutral>>",
 		"position": {
-			"x": 223,
-			"y": 689
+			"x": 131,
+			"y": 834
 		},
 		"colorID": 0
 	},
 	{
 		"title": "tiktok2",
 		"tags": "",
-		"body": "{JoeyDinger}\nWell, Carey, how about it? All you have to do is get out your phone and send a video to your brother. Think you can do that?\n\n[[...|careytiktok]]\n<<AudienceReaction|surprised>>",
+		"body": "{JoeyDinger}\nWell, Carey, how about it? All you have to do is get out your phone and send a video to your brother. Think you can do that?\n\n[[...|careytiktok]]\n<<AudienceReaction|surprised>>\n<<CharExpression|happy>>",
 		"position": {
-			"x": 426,
-			"y": 703
+			"x": 373,
+			"y": 836
 		},
 		"colorID": 6
 	},
 	{
 		"title": "careytiktok",
 		"tags": "",
-		"body": "{CareyMcCormack}\nSure, Joey. I know all about tik tok. Tik tok, tik tok, I'm a little cuckoo clock.\n\n[[...|careytiktok2]]",
+		"body": "{CareyMcCormack}\nSure, Joey. I know all about tik tok. Tik tok, tik tok, I'm a little cuckoo clock.\n\n[[...|careytiktok2]]\n<<CharExpression|mad>>",
 		"position": {
-			"x": 631,
-			"y": 706
+			"x": 591,
+			"y": 844
 		},
 		"colorID": 0
 	},
 	{
 		"title": "careytiktok2",
 		"tags": "",
-		"body": "{JoeyDinger}\nWell, go on then. Your brother is waiting.\n\n[[...|careytiktok3]]",
+		"body": "{JoeyDinger}\nWell, go on then. Your brother is waiting.\n\n[[...|careytiktok3]]\n<<CharExpression|mad>>",
 		"position": {
-			"x": 838,
-			"y": 717
+			"x": 862,
+			"y": 845
 		},
 		"colorID": 0
 	},
 	{
 		"title": "careytiktok3",
 		"tags": "",
-		"body": "{CareyMcCormack}\n.......\n\n[[...|careytiktok4]]",
+		"body": "{CareyMcCormack}\n.......\n\n[[...|careytiktok4]]\n<<CharExpression|neutral>>",
 		"position": {
-			"x": 1047,
-			"y": 718
+			"x": 1136,
+			"y": 851
 		},
 		"colorID": 0
 	},
@@ -124,8 +124,8 @@
 		"tags": "",
 		"body": "{CareyMcCormack}\n.........................\n[[...|careytiktok5]]",
 		"position": {
-			"x": 1248,
-			"y": 736
+			"x": 1373,
+			"y": 873
 		},
 		"colorID": 0
 	},
@@ -134,8 +134,8 @@
 		"tags": "",
 		"body": "{CareyMcCormack}\nI may have a little confession to make.\n\n[[...|careyconfession]]\n<<AudienceReaction|surprised>>",
 		"position": {
-			"x": 1460,
-			"y": 741
+			"x": 1631,
+			"y": 876
 		},
 		"colorID": 0
 	},
@@ -144,8 +144,8 @@
 		"tags": "",
 		"body": "{CareyMcCormack}\nI haven't been totally honest with you Joey.\n\n[[...|careyconfession2]]\n<<AudienceReaction|mad>>",
 		"position": {
-			"x": 1649,
-			"y": 735
+			"x": 1888,
+			"y": 891
 		},
 		"colorID": 0
 	},
@@ -154,18 +154,18 @@
 		"tags": "",
 		"body": "{CareyMcCormack}\n\n.........\n\n[[...|careyconfession3]]",
 		"position": {
-			"x": 1685,
-			"y": 835
+			"x": 1898,
+			"y": 1181
 		},
 		"colorID": 0
 	},
 	{
 		"title": "careyconfession3",
 		"tags": "",
-		"body": "{CareyMcCormack}\nI don't know what that is.\n\n[[...|joeyresponse]]",
+		"body": "{CareyMcCormack}\nI don't know what that is.\n\n[[...|joeyresponse]]\n<<AudienceReaction|surprised>>\n<<CharExpression|sad>>",
 		"position": {
-			"x": 1470,
-			"y": 826
+			"x": 1655,
+			"y": 1162
 		},
 		"colorID": 0
 	},
@@ -174,18 +174,308 @@
 		"tags": "",
 		"body": "{Player}\n[[Play hardball.|hardball]]\n[[Be kind.|kind]]\n",
 		"position": {
-			"x": 1247,
-			"y": 856
+			"x": 1428,
+			"y": 1158
 		},
 		"colorID": 0
 	},
 	{
 		"title": "hardball",
 		"tags": "",
-		"body": "{JoeyDinger}\nWell, I can't say I'm surprised, Carey. You are clearly not a fourteen year-old boy.\n[[...|careyconfresponse]]",
+		"body": "{JoeyDinger}\nWell, I can't say I'm surprised, Carey. You are clearly not a fourteen year-old boy.\n[[...|careyconfresponse]]\n<<AudienceReaction|surprised>>\n<<CharExpression|mad>>",
 		"position": {
-			"x": 1010,
-			"y": 847
+			"x": 1197,
+			"y": 1142
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreyq2",
+		"tags": "",
+		"body": "{JoeyDinger}\nCorey, I want to offer you all the support and encouragement that I can. The feeling of a loved one drifting away is not pleasant at all.\n\n[[...|coreyq2a]]\n<<AudienceReaction|neutral>>",
+		"position": {
+			"x": 298,
+			"y": 340
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careyconfresponse",
+		"tags": "",
+		"body": "{CareyMcCormack}\nJoey, that is outrageous! I'm fourteen! Pokemon!\n[...|joeyresponse2]]",
+		"position": {
+			"x": 955,
+			"y": 1146
+		},
+		"colorID": 0
+	},
+	{
+		"title": "joeyresponse2",
+		"tags": "",
+		"body": "{Player}\n[[Ask Corey about moustache.|moustacheco]]\n[[Ask Carey about moustache.|moustacheca]] ",
+		"position": {
+			"x": 1125,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "moustacheco",
+		"tags": "",
+		"body": "{{JoeyDinger}}\nI don't know about that, Carey. I mean, Corey, did he have that moustache before you went on your trip?\n[[...|moustacheco1]]\n<<CharExpression|neutral>>",
+		"position": {
+			"x": 721,
+			"y": 1158
+		},
+		"colorID": 0
+	},
+	{
+		"title": "moustacheco1",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nHey, come to think of it, he didn't have the moustache before the trip. I never even thought about it before!\n[[...|wrapup]]\n<<CharExpression|mad>>",
+		"position": {
+			"x": 485,
+			"y": 1178
+		},
+		"colorID": 0
+	},
+	{
+		"title": "wrapup",
+		"tags": "",
+		"body": "{StudioExec}\nHey, kid, it's about time you wrapped this shit-show up!\n[[...|wrapupjoey]]",
+		"position": {
+			"x": 1629,
+			"y": 209
+		},
+		"colorID": 0
+	},
+	{
+		"title": "wrapupjoey",
+		"tags": "",
+		"body": "{Player}\n[[Tell Joey to wrap-up (heartfelt.)|heartfelt]]\n[[Tell Joey to wrap-up (righteous anger.)|anger]]",
+		"position": {
+			"x": 1628,
+			"y": -44
+		},
+		"colorID": 0
+	},
+	{
+		"title": "heartfelt",
+		"tags": "",
+		"body": "{JoeyDinger}\nSorry to say folks, but that's just about all the time we've got for mending the rift between these once-close twin brothers.\n\n[[...|heartfelt2]]\n<<AudienceReaction|mad>>\n<<CharExpression|neutral>>",
+		"position": {
+			"x": 1392,
+			"y": -58
+		},
+		"colorID": 0
+	},
+	{
+		"title": "heartfelt2",
+		"tags": "",
+		"body": "{JoeyDinger}\nWhat can we learn from this tragic story?\n[[...|heartfelt3]]\n<<CharExpression|happy>>",
+		"position": {
+			"x": 1381,
+			"y": 159
+		},
+		"colorID": 0
+	},
+	{
+		"title": "heartfelt3",
+		"tags": "",
+		"body": "{JoeyDinger}\nThat family is complicated. Often messy. But its value is in the lifelong unbreakable bonds it affords us at birth.\n[[...|heartfelt4]]",
+		"position": {
+			"x": 1157,
+			"y": -52
+		},
+		"colorID": 0
+	},
+	{
+		"title": "heartfelt4",
+		"tags": "",
+		"body": "{JoeyDinger}\nLadies and gentlemen, I'll see you on the next one.\n[[End|endScene]]\n<<CharExpression|happy>>",
+		"position": {
+			"x": 1160,
+			"y": 156
+		},
+		"colorID": 0
+	},
+	{
+		"title": "attackcarey",
+		"tags": "",
+		"body": "{JoeyDinger}\nCarey, I've got to be honest; I have some serious questions for you.\n[[...|careyquestions]]\n<<AudienceReaction|neutral>>\n<<CharExpression|mad>>",
+		"position": {
+			"x": 845,
+			"y": 91
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careyquestions",
+		"tags": "",
+		"body": "{Player}\n[[Ask if he really is Carey|identity]]\n[[Ask if he feels guilty|guilt]]",
+		"position": {
+			"x": 610,
+			"y": 172
+		},
+		"colorID": 0
+	},
+	{
+		"title": "identity",
+		"tags": "",
+		"body": "{JoeyDinger}\nAre you really, one-hundred percent, the real Carey?\n\n[[...|careya1]]\n<<AudienceReaction|surprised>>\n<<CharExpression|neutral>>",
+		"position": {
+			"x": 1215,
+			"y": 375
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careya1",
+		"tags": "",
+		"body": "{CareyMcCormack}\nWhat?! Of course I'm the real Carey. It hurts me, deeply that anyone would think otherwise.\n\n[[...|proof]]\n<<AudienceReaction|mad>>\n<<CharExpression|mad>>",
+		"position": {
+			"x": 2286,
+			"y": 148
+		},
+		"colorID": 0
+	},
+	{
+		"title": "proof",
+		"tags": "",
+		"body": "{JoeyDinger}\nOkay, so if that's true, can you prove it?\n\n[[...|proof1]]\n<<AudienceReaction|neutral>>",
+		"position": {
+			"x": 2549,
+			"y": 158
+		},
+		"colorID": 0
+	},
+	{
+		"title": "proof1",
+		"tags": "",
+		"body": "{CareyMcCormack}\nProve it? I fought in 'nam, I don't need to prove anything to you! I'm a red-blooded American boy!\n\n[[...|proof2]]\n<<AudienceReaction|mad>>\n<<CharExpression|mad>>",
+		"position": {
+			"x": 2241,
+			"y": 410
+		},
+		"colorID": 0
+	},
+	{
+		"title": "proof2",
+		"tags": "",
+		"body": "{JoeyDinger}\nYou're still coming off a little disingenuous there, Carey.\n\n[[...|joeyresponse2]]\n<<AudienceReaction|surprised>>\n<<CharExpression|neutral>>",
+		"position": {
+			"x": 2533,
+			"y": 462
+		},
+		"colorID": 6
+	},
+	{
+		"title": "coreyq2a",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nThanks, Joey. It hasn't been easy!\n[[...|coreybranch]]",
+		"position": {
+			"x": 299,
+			"y": 585
+		},
+		"colorID": 0
+	},
+	{
+		"title": "resolution1",
+		"tags": "",
+		"body": "{JoeyDinger}\nLet me do this for you now: Carey, do you love your brother Corey?\n\n[[...|corey4qa]]",
+		"position": {
+			"x": 922,
+			"y": 338
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey4qa",
+		"tags": "",
+		"body": "{CareyMcCormack}\nSure I do, Joey. He's my brother after all!\n\n[[...|corey4qb]]\n<<AudienceReaction|surprised>>",
+		"position": {
+			"x": 566,
+			"y": 599
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreybranch",
+		"tags": "",
+		"body": "{Player}\n[[Offer resolution|resolution1]]\n[[Keep it going|coreyquestions]]",
+		"position": {
+			"x": 566,
+			"y": 388
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey4qb",
+		"tags": "",
+		"body": "{JoeyDinger}\nAnd Corey, do you love your brother Carey?\n\n[[...|corey5qa]]",
+		"position": {
+			"x": 820,
+			"y": 601
+		},
+		"colorID": 0
+	},
+	{
+		"title": "corey5qa",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nI guess so, Joey. No matter what!\n\n[[...|wrapup]]",
+		"position": {
+			"x": 1523,
+			"y": 606
+		},
+		"colorID": 0
+	},
+	{
+		"title": "anger",
+		"tags": "",
+		"body": "{JoeyDinger}\nWell folks, that's just about all the time we have for these young brothers, afflicted by the torment of existence.\n\n[[...|anger2]]",
+		"position": {
+			"x": 1970,
+			"y": -124
+		},
+		"colorID": 0
+	},
+	{
+		"title": "anger2",
+		"tags": "",
+		"body": "{JoeyDinger}\nFor we may never know the true story. Did Carey ingest some kind of parasite in Coney Island?\n\n[[...|anger3]]",
+		"position": {
+			"x": 1919,
+			"y": 108
+		},
+		"colorID": 0
+	},
+	{
+		"title": "anger3",
+		"tags": "",
+		"body": "{JoeyDinger}\nOr is he, more likely, Corey's estranged Father Casey, wearing his son's clothes? Like I said, we will never know.\n\n[[...|anger4]]",
+		"position": {
+			"x": 1927,
+			"y": 401
+		},
+		"colorID": 0
+	},
+	{
+		"title": "anger4",
+		"tags": "",
+		"body": "{JoeyDinger}\nWhat we do know, though, is that for these boys, there will be no end to their suffering. They will never truly know themselves or each other.\n\n[[...|anger5]]",
+		"position": {
+			"x": 2241,
+			"y": 683
+		},
+		"colorID": 0
+	},
+	{
+		"title": "anger5",
+		"tags": "",
+		"body": "{JoeyDinger}\nAnd is that not the real tragedy here? Food for thought. Ladies and gentlemen, until next time, I'm Joey Dinger.\n\n[[End|endScene]]",
+		"position": {
+			"x": 2535,
+			"y": 676
 		},
 		"colorID": 0
 	}

@@ -182,8 +182,7 @@ namespace JoeyDinger.SamScaife
 		// Remove all instances of \r from a string
 		public string RemoveParagraphBreaks(string targetString)
 		{
-			string newString = targetString.Replace("\r", "");
-			return newString;
+			return targetString.Replace("\r", "");
 		}
 	}
 }

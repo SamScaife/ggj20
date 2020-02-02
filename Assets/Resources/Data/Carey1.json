@@ -22,7 +22,7 @@
 	{
 		"title": "careyquestions",
 		"tags": "",
-		"body": "{Player}\n[[Ask about baseball.|careyquestion1]]\n[[Is Corey's concern justified?|careyquestion2]]\n[[Move on|null|CoreyCareyPreResolution]]",
+		"body": "{Player}\n[[Ask about baseball.|careyquestion1]]\n[[Is Corey's concern justified?|careyquestion2]]\n[[Move on|null|CoreyCareyResolution]]",
 		"position": {
 			"x": 426,
 			"y": 367
