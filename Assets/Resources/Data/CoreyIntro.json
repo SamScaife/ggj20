@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nHey, my name is Corey and I’m fourteen years old. I need your help, Joey!\n[[...|next1]]",
+		"body": "{CoreyMcCormack}\nHey, my name is Corey and I’m fourteen years old. I need your help, Joey!\n[[...|next1]]\n<<ShowGuest|Guest1>>",
 		"position": {
 			"x": -911,
 			"y": -234

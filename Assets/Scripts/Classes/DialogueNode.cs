@@ -68,7 +68,7 @@ namespace JoeyDinger.SamScaife
 						break;
 					case "{Player}":
 						speakerID = Speaker.Player;
-						speaker = "Player";
+						speaker = "";
 						break;
 					case "{JoeyDinger}":
 						speakerID = Speaker.JoeyDinger;

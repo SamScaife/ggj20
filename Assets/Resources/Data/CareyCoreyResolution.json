@@ -232,7 +232,7 @@
 	{
 		"title": "moustacheco1",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nHey, come to think of it, he didn't have the moustache before the trip. I never even thought about it before!\n[[...|wrapup]]\n<<CharExpression|mad>>",
+		"body": "{CoreyMcCormack}\nHey, come to think of it, he didn't have the moustache before the trip. I never even thought about it before!\n[[...|identityb]]\n<<CharExpression|mad>>",
 		"position": {
 			"x": 485,
 			"y": 1178
@@ -252,7 +252,7 @@
 	{
 		"title": "wrapupjoey",
 		"tags": "",
-		"body": "{Player}\n[[Tell Joey to wrap-up (heartfelt.)|heartfelt]]\n[[Tell Joey to wrap-up (righteous anger.)|anger]]",
+		"body": "{Player}\n[[Tell Joey to wrap-up (heartfelt)|heartfelt]]\n[[Tell Joey to wrap-up (sardonic)|anger]]",
 		"position": {
 			"x": 1628,
 			"y": -44
@@ -324,7 +324,7 @@
 		"tags": "",
 		"body": "{JoeyDinger}\nAre you really, one-hundred percent, the real Carey?\n\n[[...|careya1]]\n<<AudienceReaction|surprised>>\n<<CharExpression|neutral>>",
 		"position": {
-			"x": 1215,
+			"x": 1216,
 			"y": 375
 		},
 		"colorID": 0
@@ -476,6 +476,16 @@
 		"position": {
 			"x": 2535,
 			"y": 676
+		},
+		"colorID": 0
+	},
+	{
+		"title": "identityb",
+		"tags": "",
+		"body": "{Player}\n[[Ask if he really is Carey|identity]]",
+		"position": {
+			"x": 910,
+			"y": -167
 		},
 		"colorID": 0
 	}

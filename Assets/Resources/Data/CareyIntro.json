@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "{CareyMcCormack}\nHello Joey. Hello audience. I don’t know why Corey has brought me here.\n[[...|next1]]",
+		"body": "{CareyMcCormack}\nHello Joey. Hello audience. I don’t know why Corey has brought me here.\n[[...|next1]]\n<<ShowGuest|Guest2>>",
 		"position": {
 			"x": -373,
 			"y": 10
