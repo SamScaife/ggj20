@@ -1,0 +1,192 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "{JoeyDinger}\nWell, there you have it folks. We've heard both sides of the story. What do we think?\n\n[[...|dingeropts]]",
+		"position": {
+			"x": 80,
+			"y": 142
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dingeropts",
+		"tags": "",
+		"body": "{Player}\n[[Get sympathy for Corey|coreysympathy]]\n[[Go in on Carey|attackcarey]]\n[[Shame them both|shame]]",
+		"position": {
+			"x": 429,
+			"y": 113
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreysympathy",
+		"tags": "",
+		"body": "{JoeyDinger}\nCorey, I feel for you, I really do. You're a boy ripped in two. But you're a fighter and I believe in you.\n\n[[...|coreyquestions]]\n<<AudienceReaction|neutral>>",
+		"position": {
+			"x": 765,
+			"y": 111
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreyquestions",
+		"tags": "",
+		"body": "{Player}\n[[Ask how to repair trust|coreyq1]]\n[[Offer condolences|coreyq2]]",
+		"position": {
+			"x": 555,
+			"y": 366
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreyq1",
+		"tags": "",
+		"body": "{JoeyDinger}\nCorey, what can your brother do to win you back over to his side? I get the feeling he wants to make amends.\n\n[[...|coreya1]]\n<<AudienceReaction|surprised>>",
+		"position": {
+			"x": 307,
+			"y": 365
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreya1",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nThat's easy, Joey! If we are gonna be friends again, he has to come play soccer with me in the park.\n\n[[...|coreya1b]]",
+		"position": {
+			"x": 55,
+			"y": 358
+		},
+		"colorID": 0
+	},
+	{
+		"title": "coreya1b",
+		"tags": "",
+		"body": "{CoreyMcCormack}\nYeah, that's right, he's gotta play soccer with me. And drink sodas! If he's truly Carey, my twin brother, he'll send me my favourite Tik-tok meme, right now!\n\n[[...|tiktok]]\n<<AudienceReaction|surprised>>",
+		"position": {
+			"x": 10,
+			"y": 691
+		},
+		"colorID": 0
+	},
+	{
+		"title": "tiktok",
+		"tags": "",
+		"body": "{Player}\n[[Ask another question|coreyquestions]]\n[[Get Carey to send a Tik-tok meme|tiktok2]]\n<<AudienceReaction|neutral>>",
+		"position": {
+			"x": 223,
+			"y": 689
+		},
+		"colorID": 0
+	},
+	{
+		"title": "tiktok2",
+		"tags": "",
+		"body": "{JoeyDinger}\nWell, Carey, how about it? All you have to do is get out your phone and send a video to your brother. Think you can do that?\n\n[[...|careytiktok]]\n<<AudienceReaction|surprised>>",
+		"position": {
+			"x": 426,
+			"y": 703
+		},
+		"colorID": 6
+	},
+	{
+		"title": "careytiktok",
+		"tags": "",
+		"body": "{CareyMcCormack}\nSure, Joey. I know all about tik tok. Tik tok, tik tok, I'm a little cuckoo clock.\n\n[[...|careytiktok2]]",
+		"position": {
+			"x": 631,
+			"y": 706
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careytiktok2",
+		"tags": "",
+		"body": "{JoeyDinger}\nWell, go on then. Your brother is waiting.\n\n[[...|careytiktok3]]",
+		"position": {
+			"x": 838,
+			"y": 717
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careytiktok3",
+		"tags": "",
+		"body": "{CareyMcCormack}\n.......\n\n[[...|careytiktok4]]",
+		"position": {
+			"x": 1047,
+			"y": 718
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careytiktok4",
+		"tags": "",
+		"body": "{CareyMcCormack}\n.........................\n[[...|careytiktok5]]",
+		"position": {
+			"x": 1248,
+			"y": 736
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careytiktok5",
+		"tags": "",
+		"body": "{CareyMcCormack}\nI may have a little confession to make.\n\n[[...|careyconfession]]\n<<AudienceReaction|surprised>>",
+		"position": {
+			"x": 1460,
+			"y": 741
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careyconfession",
+		"tags": "",
+		"body": "{CareyMcCormack}\nI haven't been totally honest with you Joey.\n\n[[...|careyconfession2]]\n<<AudienceReaction|mad>>",
+		"position": {
+			"x": 1649,
+			"y": 735
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careyconfession2",
+		"tags": "",
+		"body": "{CareyMcCormack}\n\n.........\n\n[[...|careyconfession3]]",
+		"position": {
+			"x": 1685,
+			"y": 835
+		},
+		"colorID": 0
+	},
+	{
+		"title": "careyconfession3",
+		"tags": "",
+		"body": "{CareyMcCormack}\nI don't know what that is.\n\n[[...|joeyresponse]]",
+		"position": {
+			"x": 1470,
+			"y": 826
+		},
+		"colorID": 0
+	},
+	{
+		"title": "joeyresponse",
+		"tags": "",
+		"body": "{Player}\n[[Play hardball.|hardball]]\n[[Be kind.|kind]]\n",
+		"position": {
+			"x": 1247,
+			"y": 856
+		},
+		"colorID": 0
+	},
+	{
+		"title": "hardball",
+		"tags": "",
+		"body": "{JoeyDinger}\nWell, I can't say I'm surprised, Carey. You are clearly not a fourteen year-old boy.\n[[...|careyconfresponse]]",
+		"position": {
+			"x": 1010,
+			"y": 847
+		},
+		"colorID": 0
+	}
+]
