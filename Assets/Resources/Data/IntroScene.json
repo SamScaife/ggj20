@@ -2,7 +2,7 @@
 	{
 		"title": "Start",
 		"tags": "",
-		"body": "{StudioExec}\r\nGlad you could make it kid, I've got a hell of a favour to ask you.\r\n\r\n[[I'll do it!|doit]]\r\n[[Favour?|explain]]",
+		"body": "{StudioExec}\nGlad you could make it kid, I've got a hell of a favour to ask you.\n\n[[I'll do it!|doit]]\n[[Favour?|explain]]",
 		"position": {
 			"x": 61,
 			"y": 102
@@ -12,7 +12,7 @@
 	{
 		"title": "doit",
 		"tags": "",
-		"body": "{StudioExec}\r\nEnthusiasm, that's what I like to see! You've got some moxy kid, you'll go far in this business.\r\n\r\nNow: that favour. You familiar with the Joey Dinger show?\r\n\r\n[[I don't think so.|explain2]]",
+		"body": "{StudioExec}\nEnthusiasm, that's what I like to see! You've got some moxy kid, you'll go far in this business.\n\nNow: that favour. You familiar with the Joey Dinger show?\n\n[[I don't think so.|explain2]]",
 		"position": {
 			"x": 58,
 			"y": 338
@@ -22,7 +22,7 @@
 	{
 		"title": "explain",
 		"tags": "",
-		"body": "{StudioExec}\r\nDon't sound so scared, it's a little one. Just a small one. You familiar with the Joey Dinger show?\r\n\r\n[[I don't think so.|explain2]]",
+		"body": "{StudioExec}\nDon't sound so scared, it's a little one. Just a small one. You familiar with the Joey Dinger show?\n\n[[I don't think so.|explain2]]",
 		"position": {
 			"x": 289,
 			"y": 103
@@ -32,7 +32,7 @@
 	{
 		"title": "explain2",
 		"tags": "",
-		"body": "{StudioExec}\r\nThat's no surprise. It's a real stinker of a talk show. We gotta sandwich it between two top-rated shows just to get people to watch the damn thing - it's a real hammock-job.\r\n\r\n[[I'm listening..|okay]]",
+		"body": "{StudioExec}\nThat's no surprise. It's a real stinker of a talk show. We gotta sandwich it between two top-rated shows just to get people to watch the damn thing - it's a real hammock-job.\n\n[[I'm listening..|okay]]",
 		"position": {
 			"x": 297,
 			"y": 330
@@ -42,7 +42,7 @@
 	{
 		"title": "okay",
 		"tags": "",
-		"body": "{StudioExec}\r\nAnyway, the producer called in sick. Some kind of fever. I don't ask questions, I make television. You're gonna have to cover for his worthless ass.\r\n\r\nYou up for the challenge?\r\n\r\n[[Do I have a choice?|accept]]",
+		"body": "{StudioExec}\nAnyway, the producer called in sick. Some kind of fever. I don't ask questions, I make television. You're gonna have to cover for his worthless ass.\n\nYou up for the challenge?\n\n[[Do I have a choice?|accept]]",
 		"position": {
 			"x": 546,
 			"y": 94
@@ -52,7 +52,7 @@
 	{
 		"title": "accept",
 		"tags": "",
-		"body": "{StudioExec}\r\nYou've got a great sense of humour, kid, I'll give you that!\r\n\r\nNow I know you're familiar with the whole process, but let me make a couple of things clear:\r\n\r\n[[Okay|gulp]]",
+		"body": "{StudioExec}\nYou've got a great sense of humour, kid, I'll give you that!\n\nNow I know you're familiar with the whole process, but let me make a couple of things clear:\n\n[[Okay|gulp]]",
 		"position": {
 			"x": 536,
 			"y": 342
@@ -62,7 +62,7 @@
 	{
 		"title": "gulp",
 		"tags": "",
-		"body": "{StudioExec}\r\nJoey Dinger is a total idiot. If you don't tell him exactly what to say, the whole thing will fall apart.\r\n\r\nIf tears are being shed, you're doing the right thing.\r\n\r\n[[Got it|next]]\r\n\r\n\r\n",
+		"body": "{StudioExec}\nJoey Dinger is a total idiot. If you don't tell him exactly what to say, the whole thing will fall apart.\n\nIf tears are being shed, you're doing the right thing.\n\n[[Got it|next]]\n\n\n",
 		"position": {
 			"x": 763,
 			"y": 86
@@ -72,7 +72,7 @@
 	{
 		"title": "next",
 		"tags": "",
-		"body": "{StudioExec}\r\nIf you see pain in the eyes of one of the guests, I want to see it too, up close and personal.\r\n\r\nThis show needs ratings. Top ratings. The only way to get those ratings is to produce like you've never produced before.\r\n\r\n[[Yes sir|go]]\r\n\r\n",
+		"body": "{StudioExec}\nIf you see pain in the eyes of one of the guests, I want to see it too, up close and personal.\n\nThis show needs ratings. Top ratings. The only way to get those ratings is to produce like you've never produced before.\n\n[[Yes sir|go]]\n\n",
 		"position": {
 			"x": 779,
 			"y": 330
@@ -82,7 +82,7 @@
 	{
 		"title": "go",
 		"tags": "",
-		"body": "{StudioExec}\r\nYour first job is to pick titles for the each segment. Remember: we need those ratings!\r\n\r\nNow get the hell out of here.\r\n\r\n[[Start|endScene]]",
+		"body": "{StudioExec}\nYour first job is to pick titles for the each segment. Remember: we need those ratings!\n\nNow get the hell out of here.\n\n[[Start|endScene]]",
 		"position": {
 			"x": 1028,
 			"y": 136
