@@ -875,7 +875,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a80a181d3bac28d44a59c5894448e24d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e4c8c7ed9bd745469a81af1d2ca91e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1472,7 +1472,7 @@ PrefabInstance:
     - target: {fileID: 4807269133078697229, guid: 0349478fe291c58408f783ad54eee4fc,
         type: 3}
       propertyPath: nextScene
-      value: LowerThirdTitlePicker
+      value: LowerThirdTitlePickerSceneOne
       objectReference: {fileID: 0}
     - target: {fileID: 4807269133078697229, guid: 0349478fe291c58408f783ad54eee4fc,
         type: 3}
