@@ -26,6 +26,9 @@ namespace JoeyDinger.SamScaife
 
 		//pull out data from the body and clean it up
 		public void Setup() {
+			// remove "\r" characters from the body
+			body = RemoveParagraphBreaks(body);
+
 			//set up the speaker
 			SetupSpeaker();
 
@@ -36,7 +39,7 @@ namespace JoeyDinger.SamScaife
 
 			//set up functions
 			SetupFunctions();
-			
+
 			//clean off white space from the body
 			body.Trim();
 
@@ -172,6 +175,12 @@ namespace JoeyDinger.SamScaife
 				targetString = targetString.Substring(0, targetString.Length - 1);
 			}
 			return targetString;
+		}
+
+		public string RemoveParagraphBreaks(string targetString)
+		{
+			string newString = targetString.Replace("\r", "");
+			return newString;
 		}
 	}
 }

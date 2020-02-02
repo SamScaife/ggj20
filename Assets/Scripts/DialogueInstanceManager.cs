@@ -20,7 +20,7 @@ namespace JoeyDinger.SamScaife {
         //the DialogueManger
         public DialogueManager dialogueManager = null;
 
-        void Start()
+        void Awake()
         {
             //set up ingame component links
             TMP_Text[] childTMPComponents = gameObject.GetComponentsInChildren<TMP_Text>();
@@ -77,9 +77,13 @@ namespace JoeyDinger.SamScaife {
                     //set up event listener
                     Button buttonComponent = newButton.GetComponent<Button>();
                     buttonComponent.onClick.AddListener(delegate { HandleButtonClicked(action); });
+
+                    var charLength = action.text.Length;
+
+                    // Set button size to char length + 10 each side for padding
+                    newButton.GetComponent<RectTransform>().sizeDelta = new Vector2((charLength * 20) + 20, 40);
                 }
             }
-
         }
 
         public void HandleButtonClicked(DialogueAction action) {
