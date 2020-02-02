@@ -12,7 +12,7 @@
 	{
 		"title": "corey1",
 		"tags": "",
-		"body": "{JoeyDinger}\nSo Corey, when did you first notice something was different about your brother?\n\n[[...|corey1answer]]\n\n",
+		"body": "{JoeyDinger}\nSo Corey, when did you first notice something was different about your brother?\n\n[[...|corey1answer]]\n<<CharExpression|happy>>\n",
 		"position": {
 			"x": 63,
 			"y": -413
@@ -32,7 +32,7 @@
 	{
 		"title": "corey1answer",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nThat’s easy, Joey. It was the first week back after the trip. I sent Carey a Snapchat and he didn’t even open it.\n\n[[...|corey1answer2]]",
+		"body": "{CoreyMcCormack}\nThat’s easy, Joey. It was the first week back after the trip. I sent Carey a Snapchat and he didn’t even open it.\n\n[[...|corey1answer2]]\n<<CharExpression|neutral>>",
 		"position": {
 			"x": 53,
 			"y": -181
@@ -42,7 +42,7 @@
 	{
 		"title": "corey2answer",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nI think maybe he could have hit his head. I didn’t see him do it, but there was this time when he disappeared for like an hour, so he could have done it then. \n\n[[...|corey2answer2]]",
+		"body": "{CoreyMcCormack}\nI think maybe he could have hit his head. I didn’t see him do it, but there was this time when he disappeared for like an hour, so he could have done it then. \n\n[[...|corey2answer2]]\n<<CharExpression|sad>>",
 		"position": {
 			"x": 930,
 			"y": -153
@@ -62,7 +62,7 @@
 	{
 		"title": "corey2answer2",
 		"tags": "",
-		"body": "{CoreyMcCormack}\nMaybe he ate some bad sandwich and got a parasite. I heard they can really mess with your brain.\n\n[[Continue|coreyquestions]]",
+		"body": "{CoreyMcCormack}\nMaybe he ate some bad sandwich and got a parasite. I heard they can really mess with your brain.\n\n[[Continue|coreyquestions]]\n<<CharExpression|mad>>",
 		"position": {
 			"x": 943,
 			"y": 77

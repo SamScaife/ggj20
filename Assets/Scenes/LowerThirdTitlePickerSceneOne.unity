@@ -447,17 +447,17 @@ PrefabInstance:
     - target: {fileID: 774759431441171169, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 35
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 774759431441171169, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 774759431441171169, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 774759431441171169, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
@@ -472,7 +472,7 @@ PrefabInstance:
     - target: {fileID: 774759431441171169, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_text
-      value: That is NOT my god-fearing brother.
+      value: O brother, where art thou?
       objectReference: {fileID: 0}
     - target: {fileID: 1491458652409904901, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
@@ -547,7 +547,7 @@ PrefabInstance:
     - target: {fileID: 5073745194239429023, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: title
-      value: That is NOT my god-fearing brother.
+      value: O brother, where art thou?
       objectReference: {fileID: 0}
     - target: {fileID: 5073745194330614368, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
@@ -672,7 +672,7 @@ PrefabInstance:
     - target: {fileID: 5073745194713025029, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: title
-      value: Ever since that trip, my brother has been different.
+      value: My brother would rather read the sports pages than play sports!
       objectReference: {fileID: 0}
     - target: {fileID: 5627485723507509661, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
@@ -708,17 +708,17 @@ PrefabInstance:
     - target: {fileID: 6695842160025956332, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 52
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 6695842160025956332, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6695842160025956332, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 6695842160025956332, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
@@ -733,7 +733,7 @@ PrefabInstance:
     - target: {fileID: 6695842160025956332, guid: cbc15865dbe40a3429f712d91d470c0b,
         type: 3}
       propertyPath: m_text
-      value: Ever since that trip, my brother has been different.
+      value: My brother would rather read the sports pages than play sports!
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5073745193624049582, guid: cbc15865dbe40a3429f712d91d470c0b, type: 3}
