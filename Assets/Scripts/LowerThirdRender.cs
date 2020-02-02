@@ -20,9 +20,6 @@ public class LowerThirdRender : MonoBehaviour
         //Grab the length of the text from text element
         Vector2 textBoxSize = LowerThirdText.GetRenderedValues();
 
-
-        Debug.Log(textBoxSize);
-
         //find the image asset - should be the first child
         GameObject imageObject = transform.GetChild(0).gameObject;
 

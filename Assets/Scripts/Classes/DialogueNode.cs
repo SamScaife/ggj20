@@ -16,6 +16,7 @@ namespace JoeyDinger.SamScaife
 		public string tags;
 		public Speaker speakerID;
 		public List<DialogueAction> actions;
+		public List<DialogueAction> functions;
 
 		public DialogueNode(string _title, string _body, string _tags)
 		{
@@ -38,6 +39,7 @@ namespace JoeyDinger.SamScaife
 			SetupActions();
 
 			//set up functions
+			functions = new List<DialogueAction>();
 			SetupFunctions();
 
 			//clean off white space from the body
@@ -161,7 +163,22 @@ namespace JoeyDinger.SamScaife
 				//found a match
 				//loop through matches
 				foreach (Match match in functionMatches) {
-					//TODO: handle the functions
+					//create a new action to be populated
+					DialogueAction newDialogueAction = new DialogueAction();
+
+					//split the text and target	
+					string[] parameters = match.Groups[1].ToString().Split(new Char[] { '|' });
+
+					//updated the dialogue action properties
+					newDialogueAction.text = parameters[0];
+					newDialogueAction.targetNode = parameters[1];
+					if (2 < parameters.Length)
+					{
+						newDialogueAction.jsonFile = parameters[2];
+					}
+
+					//add the action to actions array
+					functions.Add(newDialogueAction);
 
 					//remove the action from the body
 					body = body.Replace(match.Value, "");

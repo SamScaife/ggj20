@@ -20,6 +20,9 @@ namespace JoeyDinger.SamScaife {
         //the DialogueManger
         public DialogueManager dialogueManager = null;
 
+        //the loaded node
+        private DialogueNode activeNode;
+
         void Awake()
         {
             //set up ingame component links
@@ -33,7 +36,6 @@ namespace JoeyDinger.SamScaife {
             // Horizontal button container comes next
             horizontalButtonsContainer = transform.GetChild(3).gameObject;
 
-//
             //find the putton prefab and load it ready for use
             buttonPrefab = Resources.Load("Prefabs/Button") as GameObject;
         }
@@ -41,6 +43,9 @@ namespace JoeyDinger.SamScaife {
         //populate the dialogue instance with data
         public void Render(DialogueNode data) {
             if (data != null) {
+                //store the node
+                activeNode = data;
+
                 //set the speaker
                 speaker.text = data.speaker;
                 //set the body text
@@ -89,6 +94,9 @@ namespace JoeyDinger.SamScaife {
                     }
                     newButton.GetComponent<RectTransform>().sizeDelta = new Vector2(targetWidth, 60);
                 }
+
+                //check if any functions should run
+                HandleFunctions();
             }
         }
 
@@ -105,6 +113,31 @@ namespace JoeyDinger.SamScaife {
             dialogueManager.ChangeDialogue(action.targetNode);
         }
 
+        public void HandleFunctions() {
+            //loop through functions    
+            foreach (DialogueAction function in activeNode.functions) {
+                //handle each function
+                switch (function.text) {
+                    //show a contestant
+                    case "ShowGuest":
+                        ShowGuest(function.targetNode);
+                        break;
+                }
+            }
+        }
+
+        public void ShowGuest(string targetGuest) {
+            //pick which guest to show    
+            if (targetGuest == "Guest1")
+            {
+                GameManager.instance.RenderGuestOne();
+            }
+            else if (targetGuest == "Guest2")
+            {
+                GameManager.instance.RenderGuestTwo();
+            }
+        }
+ 
 
     }
 
