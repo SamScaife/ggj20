@@ -15,7 +15,7 @@ PlayerSettings:
   companyName: DefaultCompany
   productName: GlobalGameJam2020
   defaultCursor: {fileID: 2800000, guid: 3bc42742beb7ac2479e83f5a439d6675, type: 3}
-  cursorHotspot: {x: 207, y: 160}
+  cursorHotspot: {x: 26, y: 13}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
@@ -113,11 +113,11 @@ PlayerSettings:
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
   m_SupportedAspectRatios:
-    4:3: 1
-    5:4: 1
-    16:10: 1
+    4:3: 0
+    5:4: 0
+    16:10: 0
     16:9: 1
-    Others: 1
+    Others: 0
   bundleVersion: 0.1
   preloadedAssets: []
   metroInputSource: 0
